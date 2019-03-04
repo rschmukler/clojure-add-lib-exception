@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :deps
+ {org.clojure/clojure {:mvn/version "1.10.0"}
+  metasoarous/oz {:mvn/version "1.5.6"}
+  org.clojure/tools.deps.alpha
+  {:git/url "https://github.com/clojure/tools.deps.alpha.git"
+   :sha "e160f184f051f120014244679831a9bccb37c9de"}
+  clojure.java-time {:mvn/version "0.3.2"}}}
